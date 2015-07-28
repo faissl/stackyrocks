@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Ducks. Cairns. Stacky Rocks. Whatever you call them they're invaluable wayfinders.
   Stacky Rocks is intended for technological trail-blazing...along with an occasional 
   story about an outdoor adventure. 
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: /stackyrocks/ # the subpath of your site, e.g. /blog/
 twitter_username: LisaFaiss
 github_username:  faissl
 
