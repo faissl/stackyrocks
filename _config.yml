@@ -1,13 +1,34 @@
 # Site settings
 title: Stacky Rocks
+logo: img/stackyLogo.png
 email: your-email@domain.com
+url: https://example.github.io
 description: > # this means to ignore newlines until "baseurl:"
-  Ducks. Cairns. Stacky Rocks. Whatever you call them they're invaluable wayfinders.
-  Stacky Rocks is intended for technological trail-blazing...along with an occasional 
-  story about an outdoor adventure. 
-baseurl: /stackyrocks/ # the subpath of your site, e.g. /blog/
-twitter_username: LisaFaiss
-github_username:  faissl
+  Follow the Stacky Rocks to my latest technology adventures. 
+baseurl: /stackyrocks/   # the subpath of your site, e.g. /blog/
+
+# Adventures into the great unknown of technology and the outdoors and leaving Stacky Rock piles to follow.
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#161b1e'
+  dk-font: '#35434E'
+
+# Footer settings
+footer: Stacky Rocks
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/LisaFaiss
+  - title: github
+    url: https://github.com/faissl
+  - title: linkedin
+    url: https://www.linkedin.com/in/lisafaiss
+  - title: meetup
+    url: http://www.meetup.com/businessintelligenceaz/
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+
