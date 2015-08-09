@@ -13,6 +13,7 @@ baseurl: /stackyrocks/   # the subpath of your site, e.g. /blog/
 color:
   primary-dark: '#161b1e'
   dk-font: '#35434E'
+  lt-font: '#fff'
 
 # Footer settings
 footer: Stacky Rocks
