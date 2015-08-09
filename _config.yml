@@ -1,10 +1,11 @@
 # Site settings
 title: Stacky Rocks
 logo: img/StackyLogo.png
+author-pic: img/faissl-jmt.png
 email: your-email@domain.com
 url: https://example.github.io
 description: > # this means to ignore newlines until "baseurl:"
-  Follow the Stacky Rocks to my latest technology adventures. 
+  Follow the Stacky Rocks for my latest adventures. 
 baseurl: /stackyrocks/   # the subpath of your site, e.g. /blog/
 
 # Adventures into the great unknown of technology and the outdoors and leaving Stacky Rock piles to follow.
@@ -14,6 +15,8 @@ color:
   primary-dark: '#161b1e'
   dk-font: '#35434E'
   lt-font: '#fff'
+  logo-font: '#a28859'
+  md-font: '#f4eddc'
 
 # Footer settings
 footer: Stacky Rocks
