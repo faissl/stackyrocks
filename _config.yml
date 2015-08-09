@@ -1,6 +1,6 @@
 # Site settings
 title: Stacky Rocks
-logo: img/stackyLogo.png
+logo: img/StackyLogo.png
 email: your-email@domain.com
 url: https://example.github.io
 description: > # this means to ignore newlines until "baseurl:"
