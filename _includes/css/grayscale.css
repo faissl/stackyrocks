@@ -358,7 +358,7 @@ a:hover {
     border: 2px solid {{ site.color.dk-font }};
     outline: 0;
     color: {{ site.color.primary-dark }};
-    background-color: {{ site.color.lt-font }};
+    background-color: {{ site.color.lt-font-trans }};
 }
 
 #meetup .btn-default:hover {

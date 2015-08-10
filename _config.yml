@@ -15,6 +15,7 @@ color:
   primary-dark: '#161b1e'
   dk-font: '#35434E'
   lt-font: '#fff'
+  lt-font-trans: 'rgba(255, 255, 255, .6)'
   logo-font: '#a28859'
   md-font: '#f4eddc'
 
@@ -48,7 +49,7 @@ meetup:
     url: http://www.meetup.com/Phoenix-Python-Meetup-Group/
   - title: Phoenix JavaScript
     url: http://www.meetup.com/Phoenix-JavaScript/
-  - title: Phoenix Hadood User Group
+  - title: Phoenix Hadoop User Group
     url: http://www.meetup.com/Phoenix-Hadoop-User-Group/
   - title: Arizona SQL Server User Group
     url: http://www.meetup.com/Arizona-SQL-Server-User-Group/
