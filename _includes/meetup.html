@@ -3,7 +3,16 @@
         <div class="container">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Meetups</h2>
-                <p>Might I suggest a truly awesome Meetup?</p>
+                <p>{{site.meetup-descr}}</p>
+                    <ul class="list-inline banner-social-buttons">
+                        {% for meeting in site.meetup %}
+                        <li>
+                            <a href="{{ meeting.url }}" class="btn btn-default btn-lg" target="_blank">
+                            	<span class="meeting-name">{{ meeting.title }}</span>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
             </div>
         </div>
     </section>

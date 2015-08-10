@@ -56,8 +56,7 @@ a {
     padding-top: 10px;
 }
 
-a:hover,
-a:focus {
+a:hover {
     text-decoration: none;
     color: #11505d;
 }
@@ -335,7 +334,6 @@ a:focus {
 }
 
 .btn {
-    text-transform: uppercase;
     font-family: "Rock Salt","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
@@ -349,13 +347,26 @@ a:focus {
     background-color: transparent;
 }
 
-.btn-default:hover,
-.btn-default:focus {
+.btn-default:hover {
     border: 2px solid {{ site.color.lt-font }};
     outline: 0;
     color: {{ site.color.primary-dark }};
     background-color: {{ site.color.lt-font }};
 }
+
+#meetup .btn-default {
+    border: 2px solid {{ site.color.dk-font }};
+    outline: 0;
+    color: {{ site.color.primary-dark }};
+    background-color: {{ site.color.lt-font }};
+}
+
+#meetup .btn-default:hover {
+    border: 2px solid {{ site.color.lt-font }};
+    color: {{ site.color.lt-font }};
+    background-color: transparent;
+}
+
 
 ul.banner-social-buttons {
     margin-top: 0;

@@ -23,14 +23,38 @@ footer: Stacky Rocks
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
+  - name: twitter
+    title: Twitter
     url: https://twitter.com/LisaFaiss
-  - title: github
+  - name: github
+    title: GitHub
     url: https://github.com/faissl
-  - title: linkedin
+  - name: linkedin
+    title: LinkedIn
     url: https://www.linkedin.com/in/lisafaiss
-  - title: meetup
+  - name: youtube
+    title: YouTube
+    url: https://www.youtube.com/user/LisaFaiss/videos
+
+# Meetups I give a hoot about
+meetup-descr: > #ignore newlines untill next "meetup:"
+  Where you&#39ll find all the cool kids&#58
+meetup:
+  - title: Business Intelligence AZ
     url: http://www.meetup.com/businessintelligenceaz/
+  - title: Data Science Phoenix
+    url: http://www.meetup.com/Data-Science-Phoenix/
+  - title: DesertPy Phoenix
+    url: http://www.meetup.com/Phoenix-Python-Meetup-Group/
+  - title: Phoenix JavaScript
+    url: http://www.meetup.com/Phoenix-JavaScript/
+  - title: Phoenix Hadood User Group
+    url: http://www.meetup.com/Phoenix-Hadoop-User-Group/
+  - title: Arizona SQL Server User Group
+    url: http://www.meetup.com/Arizona-SQL-Server-User-Group/
+  - title: Take a Hike
+    url: http://www.meetup.com/Take-a-Hike/
+
 
 # Build settings
 markdown: kramdown
