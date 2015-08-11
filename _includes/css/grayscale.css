@@ -473,6 +473,15 @@ ul.post-list {
     background-image: url(../img/blog-bk.png);
 }
 
+.single-post {
+    padding-top: 100px;
+}
+
+.single-post h1{
+    text-transform: none;
+}
+
+
 footer {
     padding: 50px 0;
     //background-color: {{site.color.dk-font}};
