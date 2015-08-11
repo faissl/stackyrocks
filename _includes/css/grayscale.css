@@ -276,15 +276,28 @@ a:hover {
     text-align: left;
 }
 
-.author-pic {
+.blog-img {
     height:300px;
     display: block;
-    float: right;
-    margin: 10px;
+    margin-bottom: 30px;
     background-color: #f5f5f5;
     border: 1px solid #737373;
     padding: 4px;
     box-shadow: 0 0 5px 1px #8e8e8e;
+}
+
+.blog-img-list {
+    height: 200px;
+}
+
+.img-left {
+    margin-right: 25px;
+    float: left;
+}
+
+.img-right {
+    margin-left: 20px;
+    float: right;
 }
 
 .content-section {
@@ -394,8 +407,75 @@ ul.banner-social-buttons li {
     }
 }
 
+div.posts-section {
+    padding: 20px 0 0;
+}
+
+ul.post-list {
+    list-style-type: none;
+}
+
+.post-list h2 {
+    margin: 0 0 25px;
+    font-family: Arvo,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+}
+
+.post-list p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.3em;
+}
+
+.post-list-content {
+    display: inline;
+    float: left;
+}
+
+.post-date {
+    float: left;
+    margin-right: 15px;
+    width: 70px;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid {{site.color.dk-font}};
+    border-radius: 8px;
+}
+
+.post-day {
+    width: 100%;
+    color: {{site.color.dk-font}};
+    background-color: {{site.color.lt-font}};
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.post-year {
+    color: {{site.color.lt-font}};
+    background-color: {{site.color.dk-font}};
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.post-header {
+    margin-top: 200px;
+}
+
+.post-title {
+    display: inline;
+}
+
+.post-content {
+    padding-top: 200px;
+    color: {{site.color.dk-font}};    
+    background-image: url(../img/blog-bk.png);
+}
+
 footer {
     padding: 50px 0;
+    //background-color: {{site.color.dk-font}};
 }
 
 footer p {

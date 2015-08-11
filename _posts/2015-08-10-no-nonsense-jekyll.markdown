@@ -1,9 +1,13 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-07-26 22:58:11
+title:  "No-Nonsense Jekyll Websites"
+date:   2015-08-10 22:58:11
 categories: jekyll
-img: "posts/img/2015-07-26-welcome-to-jekyll.png"
+description: > # this means to ignore newlines until "img:"
+   After years of building custom WordPress sites, Jekyll is a breath of fresh air. It's non-fussy, pre-processing approach allows 
+   you to quickly get to the HTML/CSS nuts and bolts. The learning curve is moderate, while the payoffs are high.
+img: "2015-08-10-no-nonsense-jekyll.png"
+
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
