@@ -4,9 +4,7 @@ title:  "JMT Daydreaming on a Hot Summer's Day"
 date:   2015-08-11 22:58:11
 categories: hiking backpacking
 description: > # this means to ignore newlines until "img:"
-   It's been nearly a year since I strapped a backpack on treked into the California High Sierras. I had so many pictures and videos
-   that it's been a daunting idea to post more than a few on Facebook. On a hot summer's day in the Arizona desert, I'm longing
-   to be back in the mountains and freezing my butt off in a tiny tent.
+   It's been nearly a year since I strapped on a backpack and treked into the California High Sierras. The prospect of whittling down the posts and videos to only a few is daunting, but on a hot summer's day in the Arizona desert, it's wonderful to go through them. I long to be back in the mountains and freezing my butt off in a tiny tent.
 img: "2015-08-11-one-year-since-jmt.png"
 
 ---
